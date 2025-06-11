@@ -226,7 +226,15 @@
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.editor.wrapTabs": false,
 	"workbench.startupEditor": "newUntitledFile",
-	"workbench.colorTheme": "Default Dark+",
+	"workbench.colorCustomizations": {
+		"editor.background": "#1E1E1E",
+		"sideBar.background": "#252526",
+		"activityBar.background": "#333333",
+		"titleBar.activeBackground": "#1E1E1E",
+		"statusBar.background": "#007ACC",
+		"panel.background": "#1E1E1E"
+	},
+	"workbench.colorTheme": "Default Dark Modern",
 	"workbench.iconTheme": "vs-seti",
 
 	// Language Specific
