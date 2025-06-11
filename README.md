@@ -66,3 +66,10 @@ Made with ❤️ by developers, for developers
 <br>
 © 2024 Flexpilot AI Inc.
 </p>
+
+
+<!-- cml -->
+npm run compile
+export NODE_OPTIONS="--max-old-space-size=8192" && npm run compile
+npm run compile-web
+./scripts/code-server.sh

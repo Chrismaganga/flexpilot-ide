@@ -111,11 +111,17 @@
 	},
 	"[typescript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		}
 	},
 	"[javascript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features",
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		}
 	},
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer",
@@ -171,4 +177,87 @@
 	"eslint.useFlatConfig": true,
 	"editor.occurrencesHighlightDelay": 0,
 	"typescript.experimental.expandableHover": true,
+
+	// AI Features
+	"flexpilot.enableAI": true,
+	"flexpilot.defaultProvider": "openai",
+	"flexpilot.enableChat": true,
+	"flexpilot.enableCodeCompletion": true,
+	"flexpilot.enableInlineSuggestions": true,
+
+	// Editor Enhancements
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.maxColumn": 80,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"editor.suggestSelection": "first",
+	"editor.acceptSuggestionOnEnter": "on",
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+
+	// Terminal
+	"terminal.integrated.defaultProfile.linux": "bash",
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+
+	// Git
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"git.pruneOnFetch": true,
+
+	// File Explorer
+	"explorer.confirmDelete": true,
+	"explorer.confirmDragAndDrop": true,
+	"explorer.enableDragAndDrop": true,
+	"explorer.compactFolders": false,
+
+	// Workbench
+	"workbench.editor.enablePreview": true,
+	"workbench.editor.enablePreviewFromQuickOpen": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.showTabs": "multiple",
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.editor.wrapTabs": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.iconTheme": "vs-seti",
+
+	// Language Specific
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		}
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+		"editor.formatOnSave": true
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "vscode.markdown-language-features",
+		"editor.formatOnSave": true,
+		"editor.wordWrap": "on"
+	}
 }
